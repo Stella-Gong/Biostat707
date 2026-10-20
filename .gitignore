@@ -4,3 +4,13 @@ output/*
 .pixi/
 .ipynb_checkpoints/
 __pycache__/
+
+!output/checkpoint2.html
+!output/checkpoint3.html
+
+# Ignore a local data symlink as well as a real data directory.
+/data
+
+.DS_Store
+
+.Rhistory
